@@ -3,61 +3,59 @@ body {
 }
 
 /* Hero Section */
-header{
+header {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color:#179963;  /* #343a40;/*#009764;*/
-  background-repeat:no-repeat;
+  background-color: #179963; 
+  background-repeat: no-repeat;
   background-position: center;
 }
-header img{
+
+header img {
   min-height: 300px;
   border-radius: 180px;
   border: 5px solid #555;
   border-color: #dbdbdb;
-}
-h1{
- text-shadow: 2px 2px #555;
- color: aliceblue;
- size: 16px;
-}
-header a{
-text-decoration: none;
-color:white;
+  width: 100%; /* Asegura que la imagen ocupe el 100% del contenedor */
+  height: auto; /* Mantiene la relación de aspecto */
 }
 
-header a:hover{
-    color:#dbdbdb;
-  }
+h1 {
+  text-shadow: 2px 2px #555;
+  color: aliceblue;
+  font-size: 2.5rem; /* Tamaño de fuente más grande */
+}
 
-.tarjetita1{
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header a:hover {
+  color: #dbdbdb;
+}
+
+.tarjetita1 {
   background-color: #cfeece;
-  border-color: 2px;
-  justify-content: left;
+  border: 2px solid transparent; /* Ajuste de borde */
   text-align: justify;
-  margin-left: 25%;
-  margin-right:25%;
+  margin: 0 5%; /* Margen responsivo */
   font-size: 18pt;
   box-sizing: border-box;
-  color:black;
-  
-
+  color: black;
 }
-.parrafo_descripcion{
-  
+
+.parrafo_descripcion {
   width: 100%;
-  justify-items: center;
-  font-size: 22px;
+  font-size: 1.25rem; /* Ajuste de tamaño de fuente */
   font-style: italic;
   color: black;
   text-align: justify;
-  margin-block:5px;
+  margin-block: 5px;
   padding: 5px;
 }
 
-
 /* Mis trabajos */
-
 #Mis-trabajos .image-top {
   height: 250px;
   background-repeat: no-repeat;
@@ -66,26 +64,56 @@ header a:hover{
 }
 
 /* Contacto */
-
 #Contacto form label {
   font-weight: 700;
   color: #373a3c;
 }
 
 @media (max-width: 768px) {
+  header img {
+    min-height: 200px; /* Ajustar altura en pantallas pequeñas */
+  }
+
+  h1 {
+    font-size: 2rem; /* Tamaño de fuente más pequeño */
+  }
+
+  .tarjetita1 {
+    margin: 0 10%; /* Mayor margen en pantallas pequeñas */
+  }
+
+  .parrafo_descripcion {
+    font-size: 1rem; /* Tamaño de fuente más pequeño */
+  }
+
   #Contacto form label {
     font-weight: 400;
   }
 
-  .navbar-brand{
-     width: 100px;
+  .navbar-brand {
+    width: 100px;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.5rem; /* Tamaño de fuente aún más pequeño */
   }
 
+  .tarjetita1 {
+    margin: 0 5%; /* Ajuste de margen */
+  }
+
+  .parrafo_descripcion {
+    font-size: 0.9rem; /* Ajuste de tamaño de fuente */
+  }
 }
+
 /* Ajusta el desplazamiento del scroll */
 :target {
   scroll-margin-top: 50px; 
 }
+
 footer a {
   color: inherit; 
   text-decoration: none; 
