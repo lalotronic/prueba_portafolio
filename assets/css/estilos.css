@@ -1,3 +1,33 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Hero Section */
+header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #179963; 
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header img {
+  max-height: 300px; /* Cambia min-height a max-height para limitar el tamaño */
+  border-radius: 170px;
+  border: 5px solid #555;
+  border-color: rgb(157, 229, 14);
+  width: auto; /* Cambia a auto para evitar que se estire */
+  height: auto; /* Mantiene la relación de aspecto */
+  max-width: 100%; /* Asegura que la imagen no exceda el contenedor */
+  margin-left: 20%;
+}
+
+h1 {
+  text-shadow: 2px 2px #555;
+  color: aliceblue;
+  font-size: 2.5rem; /* Tamaño de fuente más grande */
+}
+
 header a {
   text-decoration: none;
   color: white;
@@ -7,15 +37,70 @@ header a:hover {
   color: #dbdbdb;
 }
 
+.datos_personales {
+  
+  background-color: #cfeece; /* #cfeeceColor de fondo */
+  padding: 20px; /* Espaciado interno */
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border:solid 3px #179963;
+}
+
+.box-1 {
+  max-width: 800px; /* Ancho máximo para la caja */
+  margin: 0 auto; /* Centrar la caja dentro de la sección */
+  justify-content: center;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 1.5rem;
+  word-spacing: 0.2em;
+  margin: 0 5%;
+
+}
+td {
+  border: none; /* Sin bordes */
+  padding: 8px;
+}
+.datos_educacion {
+  background-color:#cfeece;/* #cfeeceColor de fondo */
+  padding: 20px; /* Espaciado interno */
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border:solid 3px #179963;
+ 
+  
+}
+.box-2 {
+  max-width: 800px; /* Ancho máximo para la caja */
+  margin: 0 auto; /* Centrar la caja dentro de la sección */
+  word-spacing: 0.2em;
+   
+  
+}
+.datos_miscelaneo {
+  background-color:#cfeece;/* #cfeeceColor de fondo */
+  padding: 20px; /* Espaciado interno */
+  padding-bottom: 20px;
+  border-radius: 20px;
+  border:solid 3px #179963;
+}
+.box-3 {
+  max-width: 800px; /* Ancho máximo para la caja */
+  margin: 0 auto; /* Centrar la caja dentro de la sección */
+}
 .tarjetita1 {
   background-color: #cfeece;
   border: 2px solid transparent; /* Ajuste de borde */
   text-align: justify;
   margin: 0 5%; /* Margen responsivo */
-  font-size: 18pt;
+  font-size: 1.5rem;
+  line-height: 2;
+  word-spacing: 0.2em;
   box-sizing: border-box;
   color: black;
-}
+  }
 
 .parrafo_descripcion {
   width: 100%;
@@ -68,12 +153,47 @@ header a:hover {
 }
 
 @media (max-width: 576px) {
+
+  .container_cabecera{
+    align-items: center;
+    margin-left: 25%;
+    
+
+  }
+  header img {
+    max-height: 300px; /* Cambia min-height a max-height para limitar el tamaño */
+    border-radius: 170px;
+    border: 5px solid #555;
+    border-color: rgb(157, 229, 14);
+    width: auto; /* Cambia a auto para evitar que se estire */
+    height: auto; /* Mantiene la relación de aspecto */
+    max-width: 100%; /* Asegura que la imagen no exceda el contenedor */
+    margin-left: 10%;
+    margin-bottom: 3%;
+  }
   h1 {
     font-size: 1.5rem; /* Tamaño de fuente aún más pequeño */
   }
 
   .tarjetita1 {
     margin: 0 5%; /* Ajuste de margen */
+    font-size: medium;
+    word-spacing: 0;
+    line-height: 1.5;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: medium;
+    line-height: 1.5;
+    word-spacing: 0.2em;
+    margin: 0 2%;
+  
+  }
+  td {
+    border: none; /* Sin bordes */
+    padding: 5px;
+    background-color: #cfeece;
   }
 
   .parrafo_descripcion {
@@ -100,28 +220,72 @@ footer .row {
 
 footer p {
   margin: 0; /* Eliminar margen */
-  font-size: 1rem; /* Tamaño de fuente */
+   /*font-size: 1rem; Tamaño de fuente */
 }
 
+
 footer a {
-  margin: 0 10px; /* Espaciado entre íconos */
+  margin: 0 15px; /* Espaciado entre íconos */
 }
 
 footer a i {
-  font-size: 1.5rem; /* Tamaño de íconos */
+  font-size: 2rem; /* Tamaño predeterminado para pantallas grandes */
 }
 
+/*fin del footer*/
 @media (max-width: 576px) {
-  footer .container {
-    flex-direction: column; /* Asegurar apilamiento vertical */
+  /* Estilo para el fondo del menú desplegable */
+  .header{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #343a40;
+
   }
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8)!important; /* Negro con 80% de opacidad */
+    padding-bottom: 0px;
+   
+}
+.collapse {
+  background-color: rgba(0, 0, 0, 0); /* Negro con 90% de opacidad */
+}
+
+/* Estilo para los enlaces en el menú desplegable */
+.nav-link {
+  color: white; /* Cambia el color del texto a blanco para mejor contraste */
+}
+
 
   footer p {
-    font-size: 0.9rem; /* Tamaño de fuente más pequeño en móvil */
+      font-size: 0.7rem; /* Tamaño de fuente más pequeño */
+      text-align: center; /* Centra el texto en móviles */
+      margin: 10px 0; /* Espacio entre párrafos */
   }
 
   footer a i {
-    font-size: 1.25rem; /* Tamaño de iconos más pequeño */
+      font-size: 1.8rem; /* Aumenta un poco el tamaño de los íconos */
+      margin-left: 0;
+      margin-right: 8%;
+      
+  }
+
+  footer a {
+      margin: 0 5px; /* Ajustar el margen en móviles */
+  }
+
+  .row {
+      flex-direction: column; /* Cambia la dirección de la fila a columna */
+      align-items: center; /* Alinea los elementos al centro */
+  }
+
+  .col-6 {
+      width: 100%; /* Cada columna ocupará el 100% del ancho */
+      margin-bottom: 10px; /* Espacio entre columnas */
+  }
+
+  .text-end {
+      text-align: center; /* Centra los enlaces de las redes sociales */
+      margin-top: 10px; /* Espacio superior para los enlaces */
   }
 }
 
@@ -136,5 +300,5 @@ footer a {
 }
 
 footer a:hover {
-  color: #dbdbdb; 
+  color: yellow/*#dbdbdb;*/
 }

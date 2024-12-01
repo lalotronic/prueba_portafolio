@@ -32,18 +32,18 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
+                        <ul class="nav-item">
                             <a class="nav-link" href="#Acerca-de-mi">Acerca de mi</a>
-                        </li>
-                        <li class="nav-item">
+                        </ul>
+                        <ul class="nav-item">
                             <a class="nav-link" href="#Mis-trabajos">Experiencia laboral</a>
-                        </li>
-                        <li class="nav-item">
+                        </ul>
+                        <ul class="nav-item">
                             <a class="nav-link" href="portafolio.html">Portafolio</a>
-                        </li>
-                        <li class="nav-item">
+                        </ul>
+                        <ul class="nav-item">
                             <a class="nav-link" href="#Contacto">Contacto</a>
-                        </li>
+                        </ul>
                     </ul>
                 </div>
             </div>
@@ -51,8 +51,8 @@
 </div>
 
 
-    <header class="mt-5" >
-        <div class="container">
+    <header class="header mt-5" >
+        <div class="container_cabecera">
             <div class="row align-items-center">
                 <div class="col-12 col-sm-3">
                     <img src="./assets/img/foto.png" alt="Foto de perfil" class="img-fluid">
@@ -97,41 +97,60 @@
     </section>
     <!--#####  seccion datos personales  #####-->
 
-    <section class="container justify-content-center" style="background-color:#cfeece;">  
+    <section class="datos_personales container justify-content-center">
+        <div class="flex-container"> 
         
-            <div class="container-fluid">
+            <div class="box-1 container-fluid">
                 <div class="text-center">
                 <i class="fa-solid fa-address-card fa-3x my-3"></i>
                 </div>       
                <h3 class="my-3 fw-bold  text-center">Información personal </h3>
-                <p class= "tarjetita1">
-                    Nombre: Enrique Esteban Paillavil Cantón<br>
-                    Lugar de Nacimiento: Coyhaique, Chile<br>
-                    Fecha de Nacimiento: 21 de Septiembre de 1985<br>
-                    38 años cumplidos<br>
-                    Residencia actual: Lautaro, Región de la Araucanía.</p>
+               <table>
+                <tr>
+                    <td>Nombre:</td>
+                    <td>Enrique Esteban Paillavil Cantón</td>
+                </tr>
+                <tr>
+                    <td>Lugar de Nacimiento:</td>
+                    <td>Coyhaique, Chile</td>
+                </tr>
+                <tr>
+                    <td>Fecha de Nacimiento:</td>
+                    <td>21 de Septiembre de 1985</td>
+                </tr>
+                <tr>
+                    <td>Edad:</td>
+                    <td>38 años cumplidos</td>
+                </tr>
+                <tr>
+                    <td>Residencia actual:</td>
+                    <td>Lautaro, Región de la Araucanía.</td>
+                </tr>
+            </table>
 
             </div>
+
+        </div>
         </section>
    <!--#####  seccion datos educación  #####-->
-        <section class="container justify-content-center" style="background-color:#cfeece;"> 
-            <div class="container-fluid">
+        <section class="datos_educacion container justify-content-center"> 
+            <div class="box-2 container-fluid">
                 <div class="text-center">
                 <i class="fa-solid fa-graduation-cap fa-3x my-3"></i>
                 </div>                
                 <h3 class="my-3 fw-bold text-center">Estudios y formación continua</h3>
                 <p class= "tarjetita1">
-                    Ingeniero Civil Electrónico, Universidad de La Frontera<br>
-                    Diplomado en introducción a la programación, Sence-Profuturo<br>
-                    Diplomado en Intelifencia artificial, UCT-Profuturo<br>
-                    Bootcamp de desarrollo web con JavaScript
+                    Ingeniero Civil Electrónico, &nbsp;&nbsp;Universidad&nbsp; de&nbsp; La&nbsp; Frontera<br>
+                    Diplomado&nbsp; en&nbsp; introducción&nbsp; a &nbsp;la&nbsp; programación, &nbsp;Sence<br>
+                    Diplomado &nbsp;en&nbsp; Intelifencia&nbsp; artificial,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UCT-Profuturo<br>
+                    Bootcamp de desarrollo web con JavaScript, Desafío Latam
                 </p>
             </div>
         </section>
         
 
-        <section class="container justify-content-center" style="background-color:#cfeece;">
-            <div class="container-fluid">
+        <section class="datos_miscelaneo container justify-content-center">
+            <div class="box-3 container-fluid">
                 <div class="text-center">
                 <i class="fa-solid fa-mug-hot fa-3x my-3"></i>
                 </div>
@@ -160,9 +179,9 @@
                         <h5 class="card-title fw-bold">Docencia EMTP </h5>
                         <p class="card-text">
                             Como ingeniero me he dedicado a la docencia con más de 11 años de experiencia, he impartido clases en enseñanza media técnico-profesional, siendo profesor de las siguientes áreas:
-                            <li>Especialidad de electrónica</li>
-                            <li>Especilidad de telecomunicaciones</li>
-                            <li>Extraescolar de robótica </li> 
+                            <ul>Especialidad de electrónica</ul>
+                            <ul>Especilidad de telecomunicaciones</ul>
+                            <ul>Extraescolar de robótica </ul> 
                             <br>En todas ellas he compartido mi pasión por la tecnología y guiado a estudiantes en su desarrollo profesional
                         </p>
                         <button type="button" class="btn btn-outline-info">
@@ -179,9 +198,9 @@
                         <p class="card-text">
                             Hacia los últimos años he impartido clases en centros de formación técnica e insititutos profesionales
                             dicatando cátedras de: 
-                            <li>Controladores logicos programables</li>
-                            <li>Instrumentación Industrial</li> 
-                            <li>Electrónica digital</li>
+                            <ul>Controladores logicos programables</ul>
+                            <ul>Instrumentación Industrial</ul> 
+                            <ul>Electrónica digital</ul>
                             <br>En carreras de Electricidad y Automatización industrial y en Ingeniería mecánica y autotrónica
                             <br><br>  
                         </p>
@@ -260,23 +279,27 @@
             <div class="container">
                 <div class="row justify-content-center text-light align-items-center">
                     <div class="col-6 col-sm-4">
-                        <p class="mb-0 fs-4 fs-sm-1 text-white fw-bold">ENRIQUE PAILLAVIL <br>&copy Todos los derechos reservados</p>
+                        <p class="footer-uno footer-text mb-0 fs-4 fs-sm-1 text-white ">ENRIQUE PAILLAVIL</p>
+                    </div>
+                    <div class="col-6 col-sm-4">
+                        <p class="footer-dos footer-text mb-0 fs-4 fs-sm-1 text-white">&copy Todos los derechos reservados</p>
+
                     </div>
                     <div class="col-6 col-sm-4 text-end">
                         <a href="https://github.com/" class="me-2 fs-4 fs-sm-1">
-                            <i class="fa-brands fa-github fa-2x"></i>
+                            <i class="fa-brands fa-github fa"></i>
                         </a>
                         <a href="https://www.linkedin.com" class="me-2 fs-4 fs-sm-1">
-                            <i class="fa-brands fa-linkedin fa-2x"></i>
+                            <i class="fa-brands fa-linkedin fa"></i>
                         </a>
                         <a href="https://www.x.com" class="me-2 fs-4 fs-sm-1">
-                            <i class="fa-brands fa-x fa-1x"></i>
+                            <i class="fa-brands fa-x fa"></i>
                         </a>
                         <a href="https://www.facebook.com" class="me-2 fs-4 fs-sm-1">
-                            <i class="fa-brands fa-facebook fa-2x"></i>
+                            <i class="fa-brands fa-facebook fa"></i>
                         </a>
                         <a href="https://www.instagram.com" class="me-2 fs-4 fs-sm-1">
-                            <i class="fa-brands fa-instagram fa-2x"></i>
+                            <i class="fa-brands fa-instagram fa"></i>
                         </a>
                     </div>
                 </div>
