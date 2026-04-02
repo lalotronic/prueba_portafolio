@@ -1,0 +1,59 @@
+<!--#####  seccion datos personales  #####-->
+<section class="datos_personales container">
+    <div class="d-flex justify-content-around flex-wrap">
+        <div class="box-1 container-fluid">
+            <div class="text-center">
+                <i class="fa-solid fa-address-card fa-3x my-3"></i>
+            </div>       
+            <h3 class="my-3 fw-bold text-center">Información personal </h3>
+            <table>
+                <tr>
+                    <td>Nombre:</td>
+                    <td>Enrique Esteban Paillavil Cantón</td>
+                </tr>
+                <tr>
+                    <td>Lugar de Nacimiento:</td>
+                    <td>Coyhaique, Chile</td>
+                </tr>
+                <tr>
+                    <td>Fecha de Nacimiento:</td>
+                    <td>21 de Septiembre de 1985</td>
+                </tr>
+                <tr>
+                    <td>Edad:</td>
+                    <td>38 años cumplidos</td>
+                </tr>
+                <tr>
+                    <td>Residencia actual:</td>
+                    <td>Lautaro, Región de la Araucanía.</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="box-2 container-fluid">
+            <div class="text-center">
+                <i class="fa-solid fa-graduation-cap fa-3x my-3"></i>
+            </div>                
+            <h3 class="my-3 fw-bold text-center">Estudios y formación continua</h3>
+            <p class="tarjetita1">
+                Ingeniero Civil Electrónico, &nbsp;&nbsp;Universidad&nbsp; de&nbsp; La&nbsp; Frontera<br>
+                Diplomado&nbsp; en&nbsp; introducción&nbsp; a &nbsp;la&nbsp; programación, &nbsp;Sence<br>
+                Diplomado &nbsp;en&nbsp; Inteligencia&nbsp; artificial,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UCT-Profuturo<br>
+                Bootcamp de desarrollo web con JavaScript, Desafío Latam
+            </p>
+        </div>
+
+        <div class="box-3 container-fluid">
+            <div class="text-center">
+                <i class="fa-solid fa-mug-hot fa-3x my-3"></i>
+            </div>
+            <h3 class="my-3 fw-bold text-center">Barista</h3>
+            <p class="tarjetita1">
+                Apasionado por la preparación del café, explorando recetas y técnicas, desde 
+                la cafetera italiana hasta la prensa francesa. La versatilidad de la cafetera 
+                eléctrica me permite adaptarme a cada ocasión, disfrutando de cada taza como 
+                una aventura sensorial.
+            </p>
+        </div>
+    </div>
+</section>
